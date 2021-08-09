@@ -25,4 +25,22 @@ capacidades, autenticaciones, registro, actualización etc.
 =============> Database Intalatión
 Para este caso usé postgress 13 que estaba en la computadora. Los parametros se encuentran en el .env que te envié para mayor seguridad del proyecto.
 
+#####################################
+steps:
+1) instalar paquetes => npm intall
+2) adjuntar .env en la raiz de todo el proyecto 
+3) Debes tener nodemon instalado globalmente "npm install nodemon -g"
+4) tener instalado redis ya que maneja caché con redis y llama a funcions en ciertas request, es necesario instalarlo
+5) instalar postgresSQL y crear una base de datos teniendo en cuenta el archivo database_sheme.sql con las credenciales mostradas en el .env
+############################
+-----Warning!
+Es necesario tener una cuenta administrador, puedes usar una que te mandé por correo o crear una nueva
+Iba a crear un microservicios de codigos que se restablescan cada cierto tiempo para usarlos en el momento
+de creacion de cuenta de administrador, pero sería algo para majorar el software.
 
+################################################
+ruta principal http://localhost/api/
+ruta para request de ususarios http://localhost/api/user/
+ruta para request de administradors http://localhost/api/admin
+ruta de logeo para obtener el token que permitirá realizar el manejo del software===>
+ http://localhost/api/auth/login
