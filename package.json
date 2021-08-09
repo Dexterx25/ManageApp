@@ -1,0 +1,39 @@
+{
+  "name": "backenddevitechtypescript",
+  "version": "1.0.0",
+  "description": "backendTestingPrueba",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \" tsc -w \"  \" nodemon -r dotenv/config dist/api \"  "
+  },
+  "author": "dexterx25",
+  "license": "MIT",
+  "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/body-parser": "^1.19.1",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.4",
+    "@types/nanoid": "^3.0.0",
+    "@types/pg": "^8.6.1",
+    "@types/redis": "^2.8.31",
+    "@types/request": "^2.48.7",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "nanoid": "^3.1.23",
+    "nodemon": "^2.0.12",
+    "pg": "^8.7.1",
+    "redis": "^3.1.2",
+    "request": "^2.88.2",
+    "tsc": "^2.0.3",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0"
+  }
+}
