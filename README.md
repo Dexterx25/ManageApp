@@ -1,7 +1,4 @@
-Hola, Erik. Espero les esté yendo muy bien en su presentación en Bogotá.
-Esta será la guia descriptiva y documentada del proyecto que decidí hacerle varios plus extra para que fuera lo más listo para usar a produccón posible.
-PD: verifica database_shema.sql para que puedas ver el esquema de base de datos que hice de acuerdo a 
-lo pedido en la prueba.
+APLICACION MY BASICA EXPRESS
 
 #####################################################################################
 ---------Services====>
